@@ -8,7 +8,6 @@ public:
     NaiveSingleton(const std::string value)
         : Singleton<NaiveSingleton>(value)
     {
-
     }
 };
 

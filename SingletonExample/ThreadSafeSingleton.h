@@ -1,14 +1,13 @@
 #pragma once
-#pragma once
+
 #include <assert.h>
-#include <string>
-#include <stdexcept>
 #include <mutex>
+#include <stdexcept>
+#include <string>
 
 // thread-safe singleton template
 template <typename T> class ThreadSafeSingleton
 {
-
 public:
     static T& GetSingleton();
     static T* GetSingletonPtr();
